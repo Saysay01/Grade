@@ -1,10 +1,9 @@
 package grade;
-
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Command2 {
+public class Command {
     public static void main(String[] args) {
         
         try {
@@ -25,8 +24,6 @@ public class Command2 {
                 score = sc.nextInt();
                 if (grade.equals(input)) {
                     System.out.println(name + "\t" + score);
-                }else{
-                    System.out.println(name + "\t" + grade + "\t" + score);
                 }
             }
             sc.close();
